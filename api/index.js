@@ -7,7 +7,7 @@ app.listen (3000, ()=>{
     console.log("Server is connect at port 3000...");
 } )
 mongoose.connect(process.env.MONGO).then(()=>{
-    console.log('Connected MongoDB')
+    console.log('Connected MongoDB...')
 }).catch((err)=>{
     console.log('error');
 })
